@@ -1,0 +1,169 @@
+.user__dashboard{
+    width: 100%;
+}
+
+.user__dashboard__container{
+    width: 100%;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__dashboard__header{
+    width: 100%;
+    height: 20vh;
+}
+
+.user__dashboard__subheader{
+    height: 50%;
+    background-color: #c6c6dc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.user__dashboard__subheader__left,
+.user__dashboard__subheader__right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__dashboard__heading{
+    font-size: 1.5rem;
+    
+}
+
+.user__dashboard__subheader__right{
+    justify-content: space-around;
+}
+
+.claim__rewards,
+.connect__metamask{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background-color: #202846;
+    color: white;
+
+}
+
+
+.user__details{
+    width: 60%;
+    margin: 2rem;
+    background-color: #bdbdc6;
+    padding: 2rem;
+}
+
+.user__details__container{
+    width: 100%;
+    display: flex;
+}
+
+.user__details__container .profile__pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.user__details__container .profile__pic .pic{
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+
+.user__details__container .change__user__profile__pic,
+.user__details__container .edit__user__profile{
+    margin: 1rem 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.user__details__container .change__user__profile__pic span,
+.user__details__container .edit__user__profile span{
+    padding: .7rem;
+    border-radius: 50px;
+    background-color: #69749b;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user__details__container .user__detail{
+    width: 60%;
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.user__details__container .user__detail .user__info{
+    border-bottom: 3px solid white;
+    padding: .7rem;
+    font-style: italic;
+}
+
+.user__details__container .user__detail .user__info:last-child{
+    border-bottom: none;
+}
+
+.user__details__container .user__detail .user__info .key{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #353c57;
+}
+.user__details__container .user__detail .user__info .value{
+    color: #60647a;
+    font-weight: 700;
+}
+
+.case{
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.case .case__navlinks{
+    width: 40%;
+    background-color: #c4c4c4;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.case .case__navlinks:hover{
+    cursor: pointer;
+}
+
+.case .case__navlinks span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #353c57;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.case .case__conatiner{
+    width: 100%;
+    background-color: #c4c4c4;
+
+}
+
+.user__dashboard__container button{
+    margin-bottom: 2rem;
+    padding: .8rem 1rem;
+}

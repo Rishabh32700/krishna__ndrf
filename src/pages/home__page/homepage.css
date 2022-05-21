@@ -1,0 +1,111 @@
+.home__page {
+    width: 100%;
+    height: 100%;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    
+}
+
+.home__page__container {
+    width: 75%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.home__page__container .home__page__banner {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/banner.png");
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.homepage__login__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volunteer__login,
+.admin__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 1rem 0;
+    background-color: #f2eeee;
+}
+
+.volunteer__login h1,
+.admin__login h1 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #6d6c6c;
+    font-weight: 500;
+}
+
+.volunteer__login form,
+.admin__login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.volunteer__login form label,
+.admin__login form label {
+    margin-bottom: .5rem;
+    color: #6d6c6c;
+    font-weight: 600;
+}
+
+.volunteer__login form input,
+.admin__login form input {
+    margin-bottom: 1rem;
+    width: 90%;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+a{
+    width: 100%;
+}
+
+.home__page__login__button {
+    width: 100%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    background-color: #444765;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.home__page__login__button:hover{
+    cursor: pointer;
+}
+.home__page__slider{
+    width: 100%;
+    height:40vh
+}
+
+.home__page__slider img{
+    width: 100%;
+    height: 100%;
+
+}
