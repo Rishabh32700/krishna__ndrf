@@ -39,7 +39,7 @@ const HomePage = () => {
                 <label>Password</label>
                 <input type="password" name="password" id="password" placeholder='Password' />
               </form>
-              <button className='home__page__login__button' >LOGIN</button>
+              <Link to="/adminDashboard"><button className='home__page__login__button' >LOGIN</button></Link>
             </div>
           </div>
           <div className="home__page__slider">
